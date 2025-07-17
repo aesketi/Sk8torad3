@@ -1,0 +1,70 @@
+    body {
+        margin: 0;
+        background: #111;
+        color: white;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .buttons, .color-picker, .save-btn {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        }
+
+        button, input[type="color"] {
+        padding: 10px 20px;
+        background: #222;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+        }
+
+button:hover {
+    background: #444;
+ }
+
+    /* ✅ Add to your global CSS or inside a <style> tag */
+.site-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: linear-gradient(to right, #fff9c4, #fbc02d); /* light yellow to rich yellow */
+    font-family: Futura, "Trebuchet MS", sans-serif;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    position: relative;
+    }
+
+.site-navbar .nav-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #333;
+    }
+
+.site-navbar .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    }
+
+.site-navbar .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    }
+
+.site-navbar .nav-links a:hover {
+    color: #000;
+    }
